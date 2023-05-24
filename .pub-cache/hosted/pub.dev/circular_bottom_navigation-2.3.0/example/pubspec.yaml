@@ -1,0 +1,25 @@
+name: circular_bottom_navigation_example
+description: Flutter example of circular_bottom_navigation
+
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  circular_bottom_navigation:
+    path: ../
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
